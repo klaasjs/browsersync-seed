@@ -1,0 +1,29 @@
+{
+  "name": "browsersync-seed",
+  "version": "1.0.0",
+  "description": "A seed project with browser-sync because I keep forgettting the command line syntax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server \"src\" --files \"index.html\" --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klaasjs/browsersync-seed.git"
+  },
+  "keywords": [
+    "browser-sync",
+    "livereload",
+    "static",
+    "html"
+  ],
+  "author": "Klaas-Jan Stellema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klaasjs/browsersync-seed/issues"
+  },
+  "homepage": "https://github.com/klaasjs/browsersync-seed#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
